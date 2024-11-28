@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: GM;
+    src: url(./Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: GL;
+    src: url(./Gilroy-Light.ttf);
+}
+
+::-webkit-scrollbar{
+    width: 0%;
+}
+ 
+#h_1{
+    background-image: linear-gradient(to top , rgb(36, 36, 36), rgb(255, 255, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#h_2{
+    background-image: linear-gradient(to top , #1e1e1e, #A50323);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#h_3{
+    background-image: linear-gradient(to top , #1e1e1e, #FB8233);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#h_4{
+    background-image: linear-gradient(to top , #232323, #3c8134);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

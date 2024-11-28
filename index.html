@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Effects</title>
+</head>
+
+<body>
+    <main>
+        <section
+            class="select-none h-screen w-full bg-zinc-900 text-white bg-[url(https://imgs.search.brave.com/6dM9MnlLLPd7elOCh5ciMO4boClcOCiAC4DCCLrbUFQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS80NC83/MS9LOTNXcW8uanBn)] bg-cover bg-no-repeat bg-fixed">
+            <div class="h-full w-full flex items-center justify-center flex-col bg-zinc-950/70">
+                <h1 id="h_1" class="text-6xl font-[GM] font-semibold">One Piece - Luffy</h1>
+                <p
+                    class="text-lg leading-normal w-1/2 text-center mt-5 font-[GL] tracking-normal font-semibold text-zinc-400">
+                    "I don't want to conquer anything... I just want to find my friends and have fun with them!" -
+                    Monkey D. Luffy</p>
+            </div>
+        </section>
+        <section
+            class="select-none h-screen w-full bg-zinc-900 text-white bg-[url(https://imgs.search.brave.com/zAU7fOOw0WTgrIbiXmHpAr0iF_5WbgZoOuq9wVXxStw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXIuZm9yZnVu/LmNvbS9mZXRjaC85/Mi85MjM3YzdiMGEy/ZjBkYjE5YTVlMjNk/NmYzNDFiM2JkNC5q/cGVn)] bg-cover bg-no-repeat bg-fixed">
+            <div class="h-full w-full flex items-center justify-center flex-col bg-zinc-950/70">
+                <h1 id="h_2" class="text-6xl font-[GM] font-semibold">Naruto - Madara Uchiha</h1>
+                <p
+                    class="text-lg leading-normal w-1/2 text-center mt-5 font-[GL] tracking-normal font-semibold text-zinc-400">
+                    "In this world, wherever there is light - there are also shadows. As long as the concept of winners
+                    exists, there must also be losers. The selfish desire of wanting to maintain peace causes wars, and
+                    hatred is born to protect love." - Madara Uchiha</p>
+            </div>
+        </section>
+        <section
+            class="select-none h-screen w-full bg-zinc-900 text-white bg-[url(https://imgs.search.brave.com/1bYMDOsrnNUFB4Q6BAlLMiXUUCWijx5yeN0xR6HCKBk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDIyODQx/MTYuanBn)] bg-cover bg-no-repeat bg-fixed">
+            <div class="h-full w-full flex items-center justify-center flex-col bg-zinc-950/70">
+                <h1 id="h_3" class="text-6xl font-[GM] font-semibold">Dragon Ball - Son Goku</h1>
+                <p
+                    class="text-lg leading-normal w-1/2 text-center mt-5 font-[GL] tracking-normal font-semibold text-zinc-400">
+                    "I am the hope of the universe. I am the answer to all living things that cry out for peace. I am
+                    protector of the innocent. I am the light in the darkness. I am truth. Ally to good! Nightmare to
+                    you!" - Son Goku</p>
+            </div>
+        </section>
+        <section
+            class="select-none h-screen w-full bg-zinc-900 text-white bg-[url(https://imgs.search.brave.com/jT1g2Uk0Zr8MNtuefhVV77hZJU9y50WwUt3BtxjyULk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS84Ny83/MC9mbmpZSlguanBn)] bg-cover bg-no-repeat bg-fixed">
+            <div class="h-full w-full flex items-center justify-center flex-col bg-zinc-950/70">
+                <h1 id="h_4" class="text-6xl font-[GM] font-semibold">Hunter x Hunter - Gon Freecss</h1>
+                <p
+                    class="text-lg leading-normal w-1/2 text-center mt-5 font-[GL] tracking-normal font-semibold text-zinc-400">
+                    "I don't care if I'm not the strongest. I'll keep fighting until I'm the last one standing." - Gon
+                    Freecss</p>
+            </div>
+        </section>
+        <section
+            class="select-none h-screen w-full bg-zinc-900 text-white bg-[url(https://imgs.search.brave.com/6dM9MnlLLPd7elOCh5ciMO4boClcOCiAC4DCCLrbUFQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS80NC83/MS9LOTNXcW8uanBn)] bg-cover bg-no-repeat bg-fixed">
+            <div class="h-full w-full flex items-center justify-center flex-col bg-zinc-950/70">
+                <h1 id="h_1" class="text-6xl font-[GM] font-semibold">One Piece - Luffy</h1>
+                <p
+                    class="text-lg leading-normal w-1/2 text-center mt-5 font-[GL] tracking-normal font-semibold text-zinc-400">
+                    "I don't want to conquer anything... I just want to find my friends and have fun with them!" -
+                    Monkey D. Luffy</p>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"></script>
+    <script>
+        const lenis = new Lenis({
+            duration:10,
+            infinite:true
+        });
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+    </script>
+</body>
+
+</html>
