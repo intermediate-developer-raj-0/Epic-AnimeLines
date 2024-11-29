@@ -1,6 +1,6 @@
 # Epic-AnimeLines
 #### Perview here : 
-  https://ani-quote.netlify.app/
+    https://anime-line.netlify.app
 
 
 
