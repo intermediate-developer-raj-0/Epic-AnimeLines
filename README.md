@@ -1,6 +1,6 @@
 # Epic-AnimeLines
 #### Perview here : 
-https://parallax-effect-01.netlify.app/
+  https://ani-quote.netlify.app/
 
 
 
