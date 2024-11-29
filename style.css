@@ -15,10 +15,12 @@
 html,body{
     height:100%;
     width:100%;
+    background-color:#111111;
 }
 
 ::-webkit-scrollbar{
     width: 0%;
+    display:none;
 }
  
 #h_1{
